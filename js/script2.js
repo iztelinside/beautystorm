@@ -1,10 +1,9 @@
 
 
 
-function showFirstMessage(){
-    console.log("Hello Invalid!");
-}
+function showFirstMessage(text){
+    console.log(text);
+    
+};
 
-showFirstMessage();
-
-u
+showFirstMessage("Hello Invalid");
