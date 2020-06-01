@@ -1,9 +1,21 @@
 
 
 
-function showFirstMessage(text){
-    console.log(text);
-    
-};
+// function showFirstMessage() {
 
-showFirstMessage("Hello Invalid");
+// }
+
+// showFirstMessage("Hello Invalid");
+const numberOfFilms = +("Сколько фильмов вы смотрели?","");
+
+function start () {
+
+}
+
+const personalMovieDB = {
+    count: numberOfFilms,
+    movies: {},
+    actors: {},
+    genres: [],
+    privat: false
+};
